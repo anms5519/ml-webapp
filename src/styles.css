@@ -1,0 +1,42 @@
+/* Main application layout styles */
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.app-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.app-main {
+  padding: 20px;
+}
+
+/* DataAnalysis component styles */
+.data-analysis {
+  margin-bottom: 40px;
+}
+
+.data-analysis h2 {
+  color: #8884d8;
+}
+
+/* UserEngagement component styles */
+.user-engagement {
+  margin-bottom: 40px;
+}
+
+.user-engagement h2 {
+  color: #82ca9d;
+}
+
+/* Automation component styles */
+.automation {
+  margin-bottom: 40px;
+}
+
+.automation h2 {
+  color: #ff7300;
+}
