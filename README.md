@@ -62,3 +62,27 @@ To run tests, follow these steps:
    ```bash
    npm test
    ```
+
+## Deploying to GitHub Pages
+
+To deploy the web application to GitHub Pages, follow these steps:
+
+1. Install the `gh-pages` package as a development dependency:
+   ```bash
+   npm install --save-dev gh-pages
+   ```
+
+2. Add the following scripts to your `package.json` file:
+   ```json
+   "scripts": {
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d build"
+   }
+   ```
+
+3. Deploy the web application:
+   ```bash
+   npm run deploy
+   ```
+
+4. Your web application should now be accessible at `https://<username>.github.io/<repository-name>/`.
